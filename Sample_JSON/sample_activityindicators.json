@@ -1,0 +1,43 @@
+{
+    "runActions": [{
+                   "action": "check",
+                   "actionTime": 3.0,
+                   "actionNumber": 0.0,
+                   "actionSecondaryNumber": 0.0,
+                   "actionTargetName": null,
+                   "identifier": "UIKitCatalog",
+                   "note":"Make sure initial view has loaded. Notes are ignored by tests.",
+                   "type": "navigationBars"
+                   },
+                   {
+                   "action": "tap",
+                   "actionTime": 0,
+                   "actionNumber": 0,
+                   "actionSecondaryNumber": 0,
+                   "actionTargetName": null,
+                   "identifier": "Activity Indicators",
+                   "note": "id is the accessibility identifier or text value of a UI element.",
+                   "type": "cells"
+                   },
+                   {
+                   "action": "tap",
+                   "actionTime": 0,
+                   "actionNumber": 0,
+                   "actionSecondaryNumber": 0,
+                   "actionTargetName": null,
+                   "identifier": "",
+                   "note": "Returning to a central menu/dashboard allows run action files to be more easily used with other files.",
+                   "type": "back"
+                   },
+                   {
+                   "action": "check",
+                   "actionTime": 3.0,
+                   "actionNumber": 0,
+                   "actionSecondaryNumber": 0,
+                   "actionTargetName": null,
+                   "identifier": "UIKitCatalog",
+                   "note": "Ending tests with a check is recommended.",
+                   "type": "navigationBars"
+                   }
+                   ]
+}
