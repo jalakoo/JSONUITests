@@ -1,4 +1,4 @@
-# JSON UI TESTS
+# SWIFT UI TESTS
 Run XC UI Tests from JSON configuration files.
 
 ## Features
@@ -78,6 +78,7 @@ Sample:
 | actionSecondaryNumber | double | General number that can be used to specify 2nd numeric arguments (ie number of fingers, delta Y, etc.) | 2.0 |
 | actionTargetName  | Target string to use for a replace action or name of target element as part of a drag action. | "my_user_name" |
 | actionTime | double | Time to execute an action. Can be 0 for instanteous actions like taps. | 0.0 |
+| elements | | |
 | name  | string | Name of the target element. Such as the title displayed for a view in a navigation bar.  | "Dashboard" |
 | type  | string | Exact string representation of the target [XCUIElement.type](https://developer.apple.com/documentation/xctest/xcuielement.elementtype) to affect this action on. | "buttons" |
 
@@ -87,9 +88,13 @@ Supported XCUIElement types:
 * buttons
 * cells
 * images (imageViews))
-* navigationBar
+* navigationBars
+* pickerWheels
+* staticTexts
 * tables
 * textFields
+* textViews
+* toolBar.buttons
 * windows
 
 

@@ -8,10 +8,10 @@
 
 import Foundation
 
-class JUITestRun : NSObject, NSCoding{
+class UITestRun : NSObject, NSCoding{
     
     var launchArgs : [String]!
-    var runActions : [JUIRunAction]!
+    var runActions : [UITestAction]!
     
     
     /**
@@ -19,10 +19,10 @@ class JUITestRun : NSObject, NSCoding{
      */
     init(fromDictionary dictionary: [String:Any]){
         launchArgs = dictionary["launchArgs"] as? [String]
-        runActions = [JUIRunAction]()
+        runActions = [UITestAction]()
         if let runActionsArray = dictionary["runActions"] as? [[String:Any]]{
             for dic in runActionsArray{
-                let value = JUIRunAction(fromDictionary: dic)
+                let value = UITestAction(fromDictionary: dic)
                 runActions.append(value)
             }
         }
@@ -54,7 +54,7 @@ class JUITestRun : NSObject, NSCoding{
     @objc required init(coder aDecoder: NSCoder)
     {
         launchArgs = aDecoder.decodeObject(forKey: "launchArgs") as? [String]
-        runActions = aDecoder.decodeObject(forKey :"runActions") as? [JUIRunAction]
+        runActions = aDecoder.decodeObject(forKey :"runActions") as? [UITestAction]
         
     }
     
@@ -73,8 +73,8 @@ class JUITestRun : NSObject, NSCoding{
         
     }
     
-    @objc class func merge(testRun: JUITestRun?,
-                           anotherTestRun: JUITestRun) -> JUITestRun {
+    @objc class func merge(testRun: UITestRun?,
+                           anotherTestRun: UITestRun) -> UITestRun {
         guard let resultRun = testRun else {
             return anotherTestRun
         }

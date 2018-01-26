@@ -29,7 +29,7 @@ class UIKitCatalogUITests: XCTestCase {
     }
     
     func testSmoke() {
-        let result = runJUITestFrom(files: ["sample_launchargs",
+        let result = runUITestFrom(files: ["sample_launchargs",
                                             "sample_activityindicators",
                                             "sample_alertcontrollers"])
         XCTAssert(result.success, result.errorMessage)

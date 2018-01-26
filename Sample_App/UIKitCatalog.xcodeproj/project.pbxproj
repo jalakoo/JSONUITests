@@ -64,13 +64,13 @@
 		7140262A200084F8002093A5 /* UIKitCatalogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71402629200084F8002093A5 /* UIKitCatalogUITests.swift */; };
 		7140264320008714002093A5 /* sample_activityindicators.json in Resources */ = {isa = PBXBuildFile; fileRef = 7140264120008713002093A5 /* sample_activityindicators.json */; };
 		7140264420008714002093A5 /* sample_launchargs.json in Resources */ = {isa = PBXBuildFile; fileRef = 7140264220008713002093A5 /* sample_launchargs.json */; };
-		714026452000874D002093A5 /* JUITestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140263220008515002093A5 /* JUITestType.swift */; };
-		714026462000874D002093A5 /* JUITesRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140263320008515002093A5 /* JUITesRun.swift */; };
-		714026472000874D002093A5 /* XCTestCase+JUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140263420008515002093A5 /* XCTestCase+JUITest.swift */; };
-		714026482000874D002093A5 /* JUIApplicationTestAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140263520008515002093A5 /* JUIApplicationTestAction.swift */; };
-		714026492000874D002093A5 /* JUIElementTestAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140263620008515002093A5 /* JUIElementTestAction.swift */; };
-		7140264B2000874D002093A5 /* XCTestCase+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140263820008515002093A5 /* XCTestCase+Utils.swift */; };
-		7140264E20008DFC002093A5 /* JUIRunAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140264C20008BCD002093A5 /* JUIRunAction.swift */; };
+		714026452000874D002093A5 /* UITestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140263220008515002093A5 /* UITestType.swift */; };
+		714026462000874D002093A5 /* UITestRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140263320008515002093A5 /* UITestRun.swift */; };
+		714026472000874D002093A5 /* XCTestCase+UITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140263420008515002093A5 /* XCTestCase+UITest.swift */; };
+		714026482000874D002093A5 /* UIApplicationTestAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140263520008515002093A5 /* UIApplicationTestAction.swift */; };
+		714026492000874D002093A5 /* UIElementTestAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140263620008515002093A5 /* UIElementTestAction.swift */; };
+		7140264B2000874D002093A5 /* XCTestCase+UITestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140263820008515002093A5 /* XCTestCase+UITestUtils.swift */; };
+		7140264E20008DFC002093A5 /* UITestAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140264C20008BCD002093A5 /* UITestAction.swift */; };
 		7140265120008F01002093A5 /* sample_alertcontrollers.json in Resources */ = {isa = PBXBuildFile; fileRef = 7140264F20008EFE002093A5 /* sample_alertcontrollers.json */; };
 		B50F41081B1D284700E5147D /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50F41071B1D284700E5147D /* StackViewController.swift */; };
 /* End PBXBuildFile section */
@@ -120,7 +120,6 @@
 		533BD7BA1F8D2B07007D5C3B /* SearchBarsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarsTableViewController.swift; sourceTree = "<group>"; };
 		533BD7BB1F8D2B07007D5C3B /* ToolbarsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarsTableViewController.swift; sourceTree = "<group>"; };
 		5341627B1F291F310007BCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ToolbarViewControllers.storyboard; sourceTree = "<group>"; };
-		5359C3081F194CF0007F0EC7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		537357131F291E6700FAB742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SearchViewControllers.storyboard; sourceTree = "<group>"; };
 		538B36F31F2A8D97002AE100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DatePickerController.storyboard; sourceTree = "<group>"; };
 		538B36F61F2A8E66002AE100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TextViewController.storyboard; sourceTree = "<group>"; };
@@ -143,18 +142,19 @@
 		53CE5AF41F2A8BB000D8A656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/StepperViewController.storyboard; sourceTree = "<group>"; };
 		53CE5AF71F2A8BD000D8A656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SwitchViewController.storyboard; sourceTree = "<group>"; };
 		53CE5AFA1F2A8BEB00D8A656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TextFieldViewController.storyboard; sourceTree = "<group>"; };
+		710C9EAF201AF20E0010D0C1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71402627200084F8002093A5 /* UIKitCatalogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitCatalogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71402629200084F8002093A5 /* UIKitCatalogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitCatalogUITests.swift; sourceTree = "<group>"; };
 		7140262B200084F8002093A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7140263220008515002093A5 /* JUITestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JUITestType.swift; sourceTree = "<group>"; };
-		7140263320008515002093A5 /* JUITesRun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JUITesRun.swift; sourceTree = "<group>"; };
-		7140263420008515002093A5 /* XCTestCase+JUITest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+JUITest.swift"; sourceTree = "<group>"; };
-		7140263520008515002093A5 /* JUIApplicationTestAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JUIApplicationTestAction.swift; sourceTree = "<group>"; };
-		7140263620008515002093A5 /* JUIElementTestAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JUIElementTestAction.swift; sourceTree = "<group>"; };
-		7140263820008515002093A5 /* XCTestCase+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Utils.swift"; sourceTree = "<group>"; };
+		7140263220008515002093A5 /* UITestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITestType.swift; sourceTree = "<group>"; };
+		7140263320008515002093A5 /* UITestRun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITestRun.swift; sourceTree = "<group>"; };
+		7140263420008515002093A5 /* XCTestCase+UITest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+UITest.swift"; sourceTree = "<group>"; };
+		7140263520008515002093A5 /* UIApplicationTestAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationTestAction.swift; sourceTree = "<group>"; };
+		7140263620008515002093A5 /* UIElementTestAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIElementTestAction.swift; sourceTree = "<group>"; };
+		7140263820008515002093A5 /* XCTestCase+UITestUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+UITestUtils.swift"; sourceTree = "<group>"; };
 		7140264120008713002093A5 /* sample_activityindicators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample_activityindicators.json; sourceTree = "<group>"; };
 		7140264220008713002093A5 /* sample_launchargs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample_launchargs.json; sourceTree = "<group>"; };
-		7140264C20008BCD002093A5 /* JUIRunAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JUIRunAction.swift; sourceTree = "<group>"; };
+		7140264C20008BCD002093A5 /* UITestAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestAction.swift; sourceTree = "<group>"; };
 		7140264F20008EFE002093A5 /* sample_alertcontrollers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample_alertcontrollers.json; sourceTree = "<group>"; };
 		B50F41071B1D284700E5147D /* StackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -180,7 +180,7 @@
 		228DB9EA18BC53F1002BA12A = {
 			isa = PBXGroup;
 			children = (
-				5359C3081F194CF0007F0EC7 /* README.md */,
+				710C9EAF201AF20E0010D0C1 /* README.md */,
 				228DB9F518BC53F1002BA12A /* UIKitCatalog */,
 				71402628200084F8002093A5 /* UIKitCatalogUITests */,
 				228DB9F418BC53F1002BA12A /* Products */,
@@ -200,7 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				7140264020008713002093A5 /* Sample_JSON */,
-				7140263120008515002093A5 /* JUITests */,
+				7140263120008515002093A5 /* Source */,
 				3E2459D41931CCB5002D3369 /* Application */,
 				3E1DA7601931CC99000114A9 /* View Controllers */,
 				228DBA0718BC53F1002BA12A /* Assets.xcassets */,
@@ -326,19 +326,19 @@
 			path = UIKitCatalogUITests;
 			sourceTree = "<group>";
 		};
-		7140263120008515002093A5 /* JUITests */ = {
+		7140263120008515002093A5 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				7140263220008515002093A5 /* JUITestType.swift */,
-				7140263320008515002093A5 /* JUITesRun.swift */,
-				7140264C20008BCD002093A5 /* JUIRunAction.swift */,
-				7140263520008515002093A5 /* JUIApplicationTestAction.swift */,
-				7140263620008515002093A5 /* JUIElementTestAction.swift */,
-				7140263420008515002093A5 /* XCTestCase+JUITest.swift */,
-				7140263820008515002093A5 /* XCTestCase+Utils.swift */,
+				7140263220008515002093A5 /* UITestType.swift */,
+				7140263320008515002093A5 /* UITestRun.swift */,
+				7140264C20008BCD002093A5 /* UITestAction.swift */,
+				7140263520008515002093A5 /* UIApplicationTestAction.swift */,
+				7140263620008515002093A5 /* UIElementTestAction.swift */,
+				7140263420008515002093A5 /* XCTestCase+UITest.swift */,
+				7140263820008515002093A5 /* XCTestCase+UITestUtils.swift */,
 			);
-			name = JUITests;
-			path = ../../JUITests;
+			name = Source;
+			path = ../../Source;
 			sourceTree = "<group>";
 		};
 		7140264020008713002093A5 /* Sample_JSON */ = {
@@ -516,13 +516,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7140264E20008DFC002093A5 /* JUIRunAction.swift in Sources */,
-				714026462000874D002093A5 /* JUITesRun.swift in Sources */,
-				714026492000874D002093A5 /* JUIElementTestAction.swift in Sources */,
-				714026452000874D002093A5 /* JUITestType.swift in Sources */,
-				714026482000874D002093A5 /* JUIApplicationTestAction.swift in Sources */,
-				7140264B2000874D002093A5 /* XCTestCase+Utils.swift in Sources */,
-				714026472000874D002093A5 /* XCTestCase+JUITest.swift in Sources */,
+				7140264E20008DFC002093A5 /* UITestAction.swift in Sources */,
+				714026462000874D002093A5 /* UITestRun.swift in Sources */,
+				714026492000874D002093A5 /* UIElementTestAction.swift in Sources */,
+				714026452000874D002093A5 /* UITestType.swift in Sources */,
+				714026482000874D002093A5 /* UIApplicationTestAction.swift in Sources */,
+				7140264B2000874D002093A5 /* XCTestCase+UITestUtils.swift in Sources */,
+				714026472000874D002093A5 /* XCTestCase+UITest.swift in Sources */,
 				7140262A200084F8002093A5 /* UIKitCatalogUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
