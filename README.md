@@ -1,4 +1,4 @@
-# SWIFT UI TESTS
+# SWIFT JSON UI TESTS
 Run XC UI Tests from JSON configuration files.
 
 ## Features
