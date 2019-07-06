@@ -34,14 +34,14 @@ class SliderViewController: UITableViewController {
         defaultSlider.maximumValue = 100
         defaultSlider.value = 42
         defaultSlider.isContinuous = true
-
+        defaultSlider.accessibilityIdentifier = "default"
         defaultSlider.addTarget(self, action: #selector(SliderViewController.sliderValueDidChange(_:)), for: .valueChanged)
     }
 
     func configureTintedSlider() {
         tintedSlider.minimumTrackTintColor = UIColor(named: "Tint_Blue_Color")
         tintedSlider.maximumTrackTintColor = UIColor(named: "Tint_Purple_Color")
-
+        tintedSlider.accessibilityIdentifier = "tinted"
         tintedSlider.addTarget(self, action: #selector(SliderViewController.sliderValueDidChange(_:)), for: .valueChanged)
     }
 
@@ -59,7 +59,7 @@ class SliderViewController: UITableViewController {
         customSlider.maximumValue = 100
         customSlider.isContinuous = false
         customSlider.value = 84
-
+        customSlider.accessibilityIdentifier = "customSlider"
         customSlider.addTarget(self, action: #selector(SliderViewController.sliderValueDidChange(_:)), for: .valueChanged)
     }
 

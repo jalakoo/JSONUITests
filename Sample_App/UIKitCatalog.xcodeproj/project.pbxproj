@@ -61,6 +61,7 @@
 		53CE5AF51F2A8BB000D8A656 /* StepperViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CE5AF31F2A8BB000D8A656 /* StepperViewController.storyboard */; };
 		53CE5AF81F2A8BD000D8A656 /* SwitchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CE5AF61F2A8BD000D8A656 /* SwitchViewController.storyboard */; };
 		53CE5AFB1F2A8BEB00D8A656 /* TextFieldViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CE5AF91F2A8BEB00D8A656 /* TextFieldViewController.storyboard */; };
+		710C9EB2201AF7BE0010D0C1 /* sample_sliders.json in Resources */ = {isa = PBXBuildFile; fileRef = 710C9EB1201AF7BE0010D0C1 /* sample_sliders.json */; };
 		7140262A200084F8002093A5 /* UIKitCatalogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71402629200084F8002093A5 /* UIKitCatalogUITests.swift */; };
 		7140264320008714002093A5 /* sample_activityindicators.json in Resources */ = {isa = PBXBuildFile; fileRef = 7140264120008713002093A5 /* sample_activityindicators.json */; };
 		7140264420008714002093A5 /* sample_launchargs.json in Resources */ = {isa = PBXBuildFile; fileRef = 7140264220008713002093A5 /* sample_launchargs.json */; };
@@ -143,6 +144,7 @@
 		53CE5AF71F2A8BD000D8A656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SwitchViewController.storyboard; sourceTree = "<group>"; };
 		53CE5AFA1F2A8BEB00D8A656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TextFieldViewController.storyboard; sourceTree = "<group>"; };
 		710C9EAF201AF20E0010D0C1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		710C9EB1201AF7BE0010D0C1 /* sample_sliders.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample_sliders.json; sourceTree = "<group>"; };
 		71402627200084F8002093A5 /* UIKitCatalogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitCatalogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71402629200084F8002093A5 /* UIKitCatalogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitCatalogUITests.swift; sourceTree = "<group>"; };
 		7140262B200084F8002093A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -347,6 +349,7 @@
 				7140264120008713002093A5 /* sample_activityindicators.json */,
 				7140264F20008EFE002093A5 /* sample_alertcontrollers.json */,
 				7140264220008713002093A5 /* sample_launchargs.json */,
+				710C9EB1201AF7BE0010D0C1 /* sample_sliders.json */,
 			);
 			name = Sample_JSON;
 			path = ../../Sample_JSON;
@@ -436,6 +439,7 @@
 			files = (
 				539C6BB01F27F4980006C5A9 /* WebViewController.storyboard in Resources */,
 				53CE5AD81F2A89E500D8A656 /* ButtonViewController.storyboard in Resources */,
+				710C9EB2201AF7BE0010D0C1 /* sample_sliders.json in Resources */,
 				53CE5AEF1F2A8B4F00D8A656 /* SliderViewController.storyboard in Resources */,
 				537357141F291E6700FAB742 /* SearchViewControllers.storyboard in Resources */,
 				53CE5AE91F2A8B1000D8A656 /* ProgressViewController.storyboard in Resources */,

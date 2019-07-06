@@ -36,4 +36,11 @@ class UIKitCatalogUITests: XCTestCase {
         
     }
     
+    func testSliders() {
+        let result = runUITestFrom(files: ["sample_launchargs",
+                                           "sample_sliders"])
+        XCTAssert(result.success, result.errorMessage)
+        
+    }
+    
 }
